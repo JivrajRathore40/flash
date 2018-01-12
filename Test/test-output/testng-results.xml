@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21439" started-at="2018-01-11T11:38:13Z" finished-at="2018-01-11T11:38:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21439" started-at="2018-01-11T11:38:13Z" finished-at="2018-01-11T11:38:35Z">
+      <class name="Seleniumeasy.Test.tests.InputFormTest">
+        <test-method status="PASS" signature="Startup()[pri:0, instance:Seleniumeasy.Test.tests.InputFormTest@6f7fd0e6]" name="Startup" is-config="true" duration-ms="11612" started-at="2018-01-11T17:08:13Z" description="this is my startup method which opens the brwoser and launches the app URL" finished-at="2018-01-11T17:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method status="FAIL" signature="verifying_Msg()[pri:0, instance:Seleniumeasy.Test.tests.InputFormTest@6f7fd0e6]" name="verifying_Msg" duration-ms="8895" started-at="2018-01-11T17:08:25Z" finished-at="2018-01-11T17:08:34Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)at Seleniumeasy.PageLib.InputFormPage.enter_Text(InputFormPage.java:31)at Seleniumeasy.Test.tests.InputFormTest.verifying_Msg(InputFormTest.java:14)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_Msg -->
+        <test-method status="PASS" signature="closeBrouser()[pri:0, instance:Seleniumeasy.Test.tests.InputFormTest@6f7fd0e6]" name="closeBrouser" is-config="true" duration-ms="878" started-at="2018-01-11T17:08:34Z" description="Closing the browser" finished-at="2018-01-11T17:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrouser -->
+      </class> <!-- Seleniumeasy.Test.tests.InputFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
